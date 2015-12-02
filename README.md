@@ -362,6 +362,7 @@ without specifying the volume ID.
                 "Effect": "Allow",
                 "Action": [
                     "ec2:CreateSnapshot",
+                    "ec2:CreateTags",
                     "ec2:DescribeInstances"
                 ],
                 "Resource": [
